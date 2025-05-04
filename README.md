@@ -5,7 +5,8 @@
 本项目提供一个简易页面，用于在备案完成后经过简单设置，悬挂备案号。满足有关部门的规定
 
 举个栗子：
-![](https://picx.zhimg.com/80/v2-aaf1b9b749ec416ef497508f5314eddb.png)
+![image](https://github.com/user-attachments/assets/349d16aa-fe7f-4fe6-9c11-9d9a008118b3)
+
 
 ## 使用方法
 1. 编辑项目目录下的.env文件，`VITE_ICP_CODE`后面的参数设置为ICP备案号，`VITE_PUBLIC_SECURITY_FULLCODE`后面的参数设置为公安网备号
