@@ -1,5 +1,12 @@
-# Vue 3 + Vite
+# ICP备案页面
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+>ICP备案成功后，根据中华人民共和国信息产业部令第33号令的相关规定，应当在网站/App的相应位置标明备案编号，并链接至工信部备案管理系统。部分省份还要求在网站底部添加版权所有。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+本项目提供一个简易页面，用于在备案完成后经过简单设置，悬挂备案号。满足有关部门的规定
+
+举个栗子：
+![](https://picx.zhimg.com/80/v2-aaf1b9b749ec416ef497508f5314eddb.png)
+
+## 使用方法
+1. 编辑项目目录下的.env文件，`VITE_ICP_CODE`后面的参数设置为ICP备案号，`VITE_PUBLIC_SECURITY_FULLCODE`后面的参数设置为公安网备号
+2. 若您使用CloudFlareWorkers或者阿里云函数，可以在云函数提供的环境变量中设置上述参数。请注意，若您同时在.env和云函数环境变量中设置了环境变量，优先生效云函数环境变量
