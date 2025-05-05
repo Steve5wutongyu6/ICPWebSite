@@ -9,5 +9,5 @@
 
 
 ## 使用方法
-1. 编辑项目目录下的.env文件，`VITE_ICP_CODE`后面的参数设置为ICP备案号，`VITE_PUBLIC_SECURITY_FULLCODE`后面的参数设置为公安网备号
+1. 编辑项目目录下的.env文件，`VITE_ICP_CODE`后面的参数设置为ICP备案号，`VITE_PUBLIC_SECURITY_FULLCODE`后面的参数设置为公安网备号,`VITE_TITLE`设置为页面标题
 2. 若您使用CloudFlareWorkers或者阿里云函数，可以在云函数提供的环境变量中设置上述参数。请注意，若您同时在.env和云函数环境变量中设置了环境变量，优先生效云函数环境变量
